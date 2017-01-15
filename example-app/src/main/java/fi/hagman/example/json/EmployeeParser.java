@@ -1,5 +1,9 @@
 package fi.hagman.example.json;
+import java.io.StringWriter;
 
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
