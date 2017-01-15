@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 import fi.hagman.example.model.Employee;
 
-public class EmployeeParser {
+public class JSONParser {
 	
 	private static final String DATE_FORMAT = "dd.MM.yyyy";
 	
@@ -28,6 +28,8 @@ public class EmployeeParser {
 		
 		return employeeJson;
 	}
+	
+
 	
 	
 }
