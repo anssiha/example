@@ -10,7 +10,8 @@ public class WorkOrder {
 	private Long id;
 	private String description;
 	private Date orderDate;
-	
+
+	private Date deliveryDate;
 	
 	public WorkOrder() {}
 	
@@ -39,6 +40,14 @@ public class WorkOrder {
 
 	public void setOrderDate(Date orderDate) {
 		this.orderDate = orderDate;
+	}
+
+	public Date getDeliveryDate() {
+		return deliveryDate;
+	}
+
+	public void setDeliveryDate(Date deliveryDate) {
+		this.deliveryDate = deliveryDate;
 	}
 
 	@Override
