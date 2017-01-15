@@ -13,7 +13,7 @@ import fi.hagman.example.model.WorkOrder;
  * Hello world!
  *
  */
-public class App 
+public class Tester 
 {
     public static void main( String[] args ) throws JAXBException
     {
