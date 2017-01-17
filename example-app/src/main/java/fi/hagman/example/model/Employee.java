@@ -85,6 +85,21 @@ public class Employee {
 		
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Employee [firstname=");
+		builder.append(firstname);
+		builder.append(", lastname=");
+		builder.append(lastname);
+		builder.append(", title=");
+		builder.append(title);
+		builder.append(", contractDate=");
+		builder.append(contractDate);
+		builder.append("]");
+		return builder.toString();
+	}
+
 	
 	
 }
