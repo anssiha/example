@@ -15,10 +15,11 @@ public class WorkOrder {
 	
 	public WorkOrder() {}
 	
-	public WorkOrder(Long id, String description) {
+	public WorkOrder(Long id, String description, Date orderDate) {
 		super();
 		this.id = id;
 		this.description = description;
+		this.orderDate = orderDate;
 	}
 	
 	public Long getId() {

@@ -20,6 +20,6 @@ public class Tester
     	
     	Employee emp = new Employee.EmployeeBuilder("john", "doe").setContractDate(new Date()).build();
         System.out.println( "JSON: " + JSONParser.getEmploeeAsJson(emp) );
-       System.out.println( "XML: " + XMLParser.getWorkOrderAsXML(new WorkOrder(1l, "Testi")));
+       System.out.println( "XML: " + XMLParser.getWorkOrderAsXML(new WorkOrder(1l, "Testi", new Date())));
     }
 }
